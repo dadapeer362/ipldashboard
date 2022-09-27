@@ -91,7 +91,7 @@ class TeamMatches extends Component {
   }
 
   getLoaderOval = () => (
-    <div className="loader-style" testid="loader">
+    <div className="loader-style">
       <Loader type="Oval" color="#ffffff" height={80} width={80} />
     </div>
   )
